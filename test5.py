@@ -11,6 +11,8 @@ try :
         password = '2105'
     )
 
+    
+
     query = ''' select * from test; '''
 
     # 셀렉트 결과를 딕셔너리로 가져오는 경우
