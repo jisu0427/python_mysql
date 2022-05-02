@@ -3,7 +3,7 @@ from mysql.connector import errors
 try :
     # 1. DB 연결
     connection = mysql.connector.connect(
-        host = 'database-1.ckgggmo40ahf.us-east-2.rds.amazonaws.com',
+        host = 'AWS 엔드포인트 주소',
         database = 'streamlit_db',
         user = 'python_user',
         password = '2105'
